@@ -2,142 +2,176 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-214417857-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-214417857-1');
-	</script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="(min-width:992px)" href="css/desktop.css">
-    <link rel="stylesheet" media="(max-width:992px)" href="css/style.css">
-    <title>My Portfolio</title>
+    <title>Portfolio </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
-
 <body>
-  <header class="main-section">
-    <section class="toolbar">
-      <nav class="desktop">
-        <div class="all-item"><a href="#">Shreya.B.Yadav</a></div>
-        <div class="desk-item">
-          <div><a href="#portfolio">Projects</a></div>
-          <div><a href="#about">About</a></div>
-          <div><a href="#contact">Contact</a></div>
-        </div>
-        <div class="mobile-item">
-          <div class="item close"><a href="#" class="closeMenu"><i class="fa fa-times" aria-hidden="true"></i></a></div>
-          <div class="mobile-nav"><a href="#portfolio" class="closeMenu">Portfolio</a></div>
-          <div class="mobile-nav"><a href="#about" class="closeMenu">About</a></div>
-          <div class="mobile-nav"><a href="#contact" class="closeMenu">Contact</a></div>
-        </div>
-        <div class="item menu"><a href="#" class="openMenu"><i class="fa fa-bars" aria-hidden="true"></i></a></div>
-      </nav>
-    </section>
-  </header>
-  <main class="main-parts">
-    <section class="headline-section">
-      <h1>I'm /Shreya.B.Yadav/ <br> Glad to see you!</h1>
-      <p>I’m a software developer! I can help you build a product , feature or website Look through some of my
-        work and experience! If you like what you see and have a project you need coded, don’t hestiate to
-        contact me.</p>
-      <P class="connect">LET'S CONNECT</P>
-      <ul class="social-icon">
-        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>  
-      </ul>
-    </section>
-    <section class="works" id="portfolio">
-    </section>
-    <section class="about-myself" id="about">
-      <div class="desk-about">
-        <h1>About <br> Myself</h1>
-        <p>I’m a software developer! I can help you build a product , feature or website Look through some of my
-          work and experience! If you like what you see and have a project you need coded, don’t hestiate to
-          contact me.</p>
-        <P class="connect">LET'S CONNECT</P>
-        <ul class="contact-icon">
-          <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        </ul>
-        <button class="resume">Get My Resume</button>
-      </div>
-      <div class="expertise">
-        <ul class="language">
-          <li>
-            <p>Languages</p>
-          </li>
-          <li><i class="fa fa-chevron-down" aria-hidden="true"></i></li>
-        </ul>
-        <div class="desk-programming">
-          <ul class="outer-item">
-            <li class="programming"><img src="./images/javaScript.png" alt="JavaScript"></li>
-            <li>
-              <p>JavaScript</p>
-            </li>
-          </ul>
-          <ul class="outer-item">
-            <li class="programming"><img src="./images/html.png" alt="HTML"></li>
-            <li>
-              <p>HTML</p>
-            </li>
-          </ul>
-          <ul class="outer-item">
-            <li class="programming"><img src="./images/css.png" alt="CSS"></li>
-            <li>
-              <p>CSS</p>
-            </li>
-          </ul>
-        </div>
-        <!-- <ul class="framework">
-          <li class="flex-items">
-            <p>Frameworks</p>
-          </li>
-          <li><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
-        </ul>
-        <ul class="skills">
-          <li class="flex-items">
-            <p>Skills</p>
-          </li>
-          <li><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
-        </ul> -->
-      </div>
-    </section>
-    <section class="contact" id="contact">
-      <div class="inner-div">
-        <h2>Contact me</h2>
-        <p id="inner-div">If you have an application you are interested in developing, a feature that you need
-          built or a project that needs coding. I’d love to help with it </p>
-      </div>
-      <form action="https://formspree.io/f/xbjwrzvy" id="form" class="form" method="post">
-        <ul class="inner-list">
-          <li><input type="text" class="form-control" placeholder="Full name" name="name" id="name" size="40" maxlength="30">
-          </li>
-          <li> </li>
-          <li><input type="email" class="form-control" name="email" id="email" placeholder="Email address">
-          </li>  
-          <li> </li>
-          <li><textarea name="text" class="form-control" id="text" placeholder="Message"></textarea></li>
-          <li> </li>
-          <li class="flex-item6" id="submit-btn"><button type="submit">Get In Touch</button></li>
-          <li class="shape"><img src="./images/Shape.png" alt="shape"></li>
-        </ul>
-      </form>
-    </section>
-  </main>
-  <section class="worksPopup" id="portfolioPopup">
-  </section>
-<script src="js/main.js"></script>
-</body>
+    <!-- header  -->
+    <header>
+        <a href="https://www.starbucks.in/dashboard"  target="_blank"  class="logo" ><img src="img/logo.png" alt=""></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
 
+        
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop </a></li>
+            <li><a href="#delivery">Delivery</a></li>
+            <li><a href="#app">App</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+    </header>
+
+    <!-- home 
+     -->
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <span>Welcome to </span>
+            <h1>Starbucks Coffee</h1>
+            <h2>Free cofee is a <br>tap away </h2>
+            <button class="btn"><a href="https://www.starbucks.in/rewards" target="_blank">Join Now </a>
+            </button>
+            
+        </div>
+        <div class="home-img">
+            <img src="img/home.png" alt="">
+        </div>
+
+        <!-- shop section  -->
+    </section>
+    <section class="shop" id="shop">
+        <div class="heading">
+            <span>Shop now </span>
+            <h1>Shop Coffee</h1>
+        </div>
+        <div class="shop-container">
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/shop1.png" alt="">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <h2>Starbucks Coffee</h2>
+                <span>$12.4</span>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/shop2.png" alt="">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <h2>Starbucks Coffee</h2>
+                <span>$12.4</span>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/shop3.png" alt="">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <h2>Starbucks Coffee</h2>
+                <span>$12.4</span>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- delivery -->
+
+    <section class="delivery" id="delivery">
+        <div class="heading">
+            <span>Get Now </span>
+            <h1>Order with Uber Eats </h1>
+        </div>
+        <div class="container">
+            <div class="delivery-img">
+                <img src="img/delivery.png" alt="">
+            </div>
+            <div class="delivery-text">
+                <h2>Today Deserve delivery</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sapiente consequatur odio autem natus quaerat maiores, aperiam architecto qui accusamus quos inventore laboriosam!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nam sed nisi. Aliquam quis, veritatis atque reprehenderit quos odit perferendis ut.</p>
+                <a href="" class="btn">Order now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- app -->
+    <section class="app" id="app">
+        <div class="heading">
+            <span>Our app</span>
+            <h1>Go to the app</h1>
+            <div class="container">
+
+            <div class="app-text">
+                <h2>Today Deserve delivery</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sapiente consequatur odio autem natus quaerat maiores, aperiam architecto qui accusamus quos inventore laboriosam!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nam sed nisi. Aliquam quis, veritatis atque reprehenderit quos odit perferendis ut.</p>
+                <a href="#" target="_blank" class="btn">Order now</a>
+            </div>
+                <div class="app-img">
+                    <img src="img/app.png" alt="">
+                </div>
+            </div>
+    </section>
+
+    <!-- about  -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about.png" alt="">
+        </div>
+        <div class="about-text">
+            <h2>50 years of serving communities</h2>
+            <p>Our story begins in 1971 along the cobblestone streets of Seattle’s historic Pike Place Market. It was here where Starbucks opened its first store, offering fresh-roasted coffee beans, tea and spices from around the world for our customers to take home. Our name was inspired by the classic tale, “Moby-Dick,” evoking the seafaring tradition of the early coffee traders.
+                Ten years later, a young New Yorker named Howard Schultz would walk through these doors and become captivated with Starbucks coffee from his first sip. After joining the company in 1982, a different cobblestone road would lead him to another discovery. It was on a trip to Milan in 1983 that Howard first experienced Italy’s coffeehouses, and he returned to Seattle inspired to bring the warmth and artistry of its coffee culture to Starbucks. By 1987, we swapped our brown aprons for green ones and embarked on our next chapter as a coffeehouse.</p>
+            <a href="#" target="_blank" class="btn">Learn More</a>
+        </div>
+
+    </section>
+
+
+<!-- contact  -->
+
+    <section class="contact" id="contact">
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+        <div class="links">
+            <a href="#">Privacy Policy </a>
+            <a href="#">Terms Of Use  </a>
+            <a href="#">Our Company </a>
+        </div>
+        <p>&#169; Vishu's All Rights Reserved</p>
+    </section>
+
+
+
+    <script src="main.js"></script>
+</body>
 </html>
